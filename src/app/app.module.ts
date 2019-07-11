@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SimpleObservableRxjsComponent } from "./observable/simple-observable-rxjs.component";
 import { BehaviorSubjectExampleComponent } from "./behaviorsubject/behavior-subject-example.component";
+import { CommonFunctionsComponent } from "./common-functions/common-functions.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpleObservableRxjsComponent,
-    BehaviorSubjectExampleComponent
+	BehaviorSubjectExampleComponent,
+	CommonFunctionsComponent
   ],
   imports: [
     BrowserModule,
